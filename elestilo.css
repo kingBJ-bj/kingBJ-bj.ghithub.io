@@ -1,0 +1,86 @@
+/* styles.css */
+.container {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto;    /* Centrar horizontalmente */
+    padding: 20px;     /* Espaciado interno */
+    background-color: #3DB4EB; /* Color de fondo */
+    border: 1px solid #3D46EB;    /* Borde */
+    justify-content: center;
+    border-radius: 8px;        /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #43669b;
+    margin: 0;
+    padding: 0;
+}
+header h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #61395e;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+/* Contenedor principal del menú */
+.menu-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0;
+}
+/* Estilo de la lista del menú */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 2;
+}
+
+/* Estilo de cada ítem */
+.menu-item {
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #383e74;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover en los ítems */
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen en los ítems */
+.menu-item img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Títulos e información */
+.menu-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 14px;
+    color: #fcfdff;
+}
+
+/* Enlaces dentro de los ítems */
+.menu-item a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    font-weight: bold;
+}
+
+.menu-item a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
